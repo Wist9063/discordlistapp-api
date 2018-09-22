@@ -1,0 +1,19 @@
+{
+  "name": "discordlistapp-api",
+  "version": "1.0.0",
+  "description": "A simple way of communicating between Discord List App and node.js.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wist9063/discordlistapp-api.git"
+  },
+  "keywords": [],
+  "author": "wist9063",
+  "license": "MIT License",
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
