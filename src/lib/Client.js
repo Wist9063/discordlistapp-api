@@ -50,6 +50,15 @@ class DiscordListAppClient {
     });
   }
 
+  getVotes() {
+    return new Promise((resolve, reject) => {
+      nfetch(`${this.url}/bot/${this._id}/votes`, { method: 'GET', headers: {'Authorization': this.auth, 'Content-Type': 'application/json'} })
+        .then(res => res.json())
+        .then(body => resolve(body))
+        .catch(err => reject(err));
+    });
+  }
+
 }
 
 module.exports = DiscordListAppClient;
