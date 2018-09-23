@@ -4,7 +4,7 @@
   "description": "A simple way of communicating between Discord List App and node.js.",
   "main": "src/main.js",
   "scripts": {
-    "test": "test.js"
+    "test": "./test.js"
   },
   "repository": {
     "type": "git",
