@@ -1,1 +1,1 @@
-module.exports = { api: require('./lib/api.js') };
+module.exports = { Client: require('./lib/Client.js') };
